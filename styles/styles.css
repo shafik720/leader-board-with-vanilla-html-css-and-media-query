@@ -369,4 +369,14 @@ body{
     .topSections .top-blog h2{
         text-align: center;
     }
+
+    /* --------------------------------- Latest course section ----------------------------------------- */
+    .course-section{
+        margin-top: 30px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        border-radius: 15px; 
+    }
 }
