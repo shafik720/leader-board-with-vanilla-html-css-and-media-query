@@ -312,7 +312,14 @@ body{
         color: #562EFF;
     }
     /* --------------------------------- Latest course section ----------------------------------------- */
-    
+    .course-section{
+        margin-top: 30px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        border-radius: 15px; 
+    }
 }
 
 
