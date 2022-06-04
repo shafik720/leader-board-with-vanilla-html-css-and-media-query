@@ -110,7 +110,7 @@ body{
 
 
 /*---------------------------------------------------
-    Top blogs section
+            Top blogs section
 ----------------------------------------------------*/
 .topSections .top-blog{
     margin-left: 30px;
@@ -151,6 +151,69 @@ body{
     text-decoration: none;
     color: #562EFF;
 }
+
+/*------------------------------------------------------------------------
+                        latest course section 
+--------------------------------------------------------------------------*/
+
+.course{
+    box-shadow: 0 15px 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 15px; 
+    margin: 30px 7px;  
+    width: 252px;
+}
+.course-section{
+    margin-top: 30px; 
+    display: flex;
+    border-radius: 15px; 
+}
+
+
+.course img{
+    width: 224px;
+    height: 104px;  
+    margin: auto; 
+}
+.course h2{
+    color: black; 
+    font-weight: 500; 
+    font-size: 23px; 
+    line-height: 1.2em;
+    padding-top: 19px;  
+    padding-bottom: 7px;  
+}
+.course p{
+    color: #ED6B4F; 
+    font-size: 14px; 
+    margin-bottom: 10px; 
+}
+.rating-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.rating{
+    display: flex;
+}
+.rating-number{
+    margin-left: 10px;  
+}
+.rated{
+    color: #FFC014; 
+}
+.not-rated{
+    color: rgba(0,0,0,0.05); 
+}
+.duration{
+    color: #FF4A60;
+    background: rgba(255, 74, 95, 0.507);
+    padding: 5px 15px;
+    border-radius: 15px; 
+}
+
 
 
 
@@ -248,6 +311,8 @@ body{
         text-decoration: none;
         color: #562EFF;
     }
+    /* --------------------------------- Latest course section ----------------------------------------- */
+    
 }
 
 
